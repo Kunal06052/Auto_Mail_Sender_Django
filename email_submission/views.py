@@ -37,8 +37,8 @@ def submit_assignment(request):
                 subject,
                 body,
                 settings.DEFAULT_FROM_EMAIL,
-                ['25073@arsd.du.ac.in'],
-                cc=['atr.kunal0506@gmail.com'],
+                [''],
+                cc=[''],
             )
 
             # Attach files
